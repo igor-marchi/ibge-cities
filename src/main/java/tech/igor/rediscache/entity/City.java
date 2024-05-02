@@ -2,15 +2,12 @@ package tech.igor.rediscache.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.io.Serializable;
-
-public class City implements Serializable {
-    private String name;
+public class City {
+    
+    private final String name;
 
     @JsonProperty("ibge_code")
-    private String code;
-
-    public City() {}
+    private final String code;
 
     public City(String name, String code) {
         this.name = name;

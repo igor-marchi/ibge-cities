@@ -4,7 +4,7 @@ Este projeto é uma aplicação Spring Boot que fornece uma API REST para criar 
 
 ## Pré-requisitos
 
--   Java 11
+-   Java 21
 -   Maven
 -   Docker
 -   Git

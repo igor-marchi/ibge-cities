@@ -1,8 +1,8 @@
 @baseUrl = http://localhost:8080
-@city = SP
+@stateCode = SP
 
 ### List cities
-GET {{baseUrl}}/brazilian/cities/{{city}}
+GET {{baseUrl}}/brazilian/cities/{{stateCode}}
 
 ### List states
 GET {{baseUrl}}/brazilian/states
